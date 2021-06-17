@@ -1,0 +1,70 @@
+/*-------- Banner Section -------*/
+.banner-section{
+  width: auto;
+  height: auto;
+}
+.banner-section p.banner-smalltitle, .service-section .service-smalltitle {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+}
+.banner-section h1{
+	margin-bottom: 15px;
+}
+.banner-btn a{
+	letter-spacing: 3px;
+	padding: 15px 25px;
+}
+.banner-btn a:after {
+	content: '\f101';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	margin-left: 10px;
+}
+
+/*------- Services Section --------*/
+.service-section .service-box{
+	border: 15px solid #ff7109;
+}
+.service-section .service-box:hover{
+	background: #fff !important;
+	border-color: #eee;
+}
+.service-section .service-box:hover img.wp-block-cover__image-background{
+	opacity: 0;
+}
+.service-section .service-box:hover h3, .service-section .service-box:hover p{
+	color: #202028 !important;
+}
+.service-section .service-box h3{
+	margin-bottom: 15px !important;
+}
+.service-section .service-box p{
+	margin-bottom: 0 !important;
+}
+.service-section .service-box .wp-block-cover__inner-container {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    width: auto;
+}
+.banner-btn .wp-block-button__link:hover {
+	color: #ff7109 !important;
+	background: #fff !important;
+}
+
+/*----- Media css ----*/
+@media screen and (max-width: 768px) and (min-width: 576px){
+	.service-section .wp-block-columns{
+		flex-wrap: nowrap;
+	}
+	.service-section .wp-block-column:nth-child(2){
+		margin: 0 15px;
+	}
+	.service-section .service-box .wp-block-cover__inner-container{
+		left: 20px;
+		right: 20px;
+		bottom: 20px;
+	}
+}

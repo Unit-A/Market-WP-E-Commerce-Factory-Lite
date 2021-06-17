@@ -1,0 +1,162 @@
+/*About theme*/
+.appearance_page_factory_lite_guide{
+    background: #fff;
+}
+.wrapper-info {
+    margin-top: 20px;
+}
+.wrapper-info h2 {
+    color: #004c75;
+    font-size: 28px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+span.version {
+    font-size: 15px;
+    color: #333;
+}
+.col-left p {
+    font-size: 16px;
+    color: #333;
+    width: 50%;
+}
+/*Tab Button*/
+.info-link a, .col-left-pro a, a.vw-pattern-page-btn.button-primary.button, .tab button, .factory-lite-recommended-plugins a.button {
+    padding: 3px 27px;
+    font-weight: bold;
+    font-size: 15px;
+    background: linear-gradient(#6ccef5,#016194);
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    line-height: 2.15384615;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#install_ibtana-visual-editor h3{
+    margin: 0px 0 20px;
+}
+hr.h3hr {
+    width: 10%;
+    border-top: 2px solid;
+    margin: 0 0 20px 0;
+}
+.first-row {
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    background: #f5f5f5;
+}
+.row-box {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+.row-box1 {
+    float: left;
+    width: 52%;
+}
+.row-box span {
+    margin-right: 8px;
+    color: #000;
+}
+.row-box a {
+    text-decoration: none;
+}
+.tab-sec h3 {
+    color: #004c75;
+    font-size: 25px;
+    margin: 35px 0 10px;
+}
+.tab-sec p {
+    font-size: 16px;
+    color: #333;
+}
+.col-right-inner h3{
+    margin-top: 0;
+}
+.col-right-inner {
+    width: 60%;
+    float: right;
+    padding: 0 20px;
+}
+.col-left-inner {
+    width: 36%;
+    float: left;
+}
+.col-right-inner img {
+    width: 100%;
+    box-shadow: 0 0 15px 1px #bbb;
+}
+#block_pattern img {
+    width: 60%;
+    box-shadow: 0 0 15px 1px #bbb;
+    margin-top: 25px;
+}
+.col-left-inner h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.col-left-inner p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+.info-link a:hover, .col-left-pro a:hover, td.update-link:hover, a.vw-pattern-page-btn.button-primary.button:hover{
+    background: #0771ab !important;
+}
+.info-link {
+    margin: 20px 0;
+}
+.col-right .info-link,
+.logo{
+    text-align: center;
+}
+button.tablinks:focus {
+    outline: none;
+}
+button.tablinks.active {
+    background: linear-gradient(#eee,#cacaca);
+    color: #131313;
+}
+.tabcontent {
+    display: none;
+}
+.open {
+    display: block ;
+}
+
+/* -------- Plugin Activation Css --------- */
+
+.factory-lite-recommended-plugins .factory-lite-action-list{
+    max-width: 735px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px #e2e2e2;
+    margin-top: 31px;
+    background: #fff;
+}
+.factory-lite-recommended-plugins .action-link,.factory-lite-recommended-plugins a.button{
+    padding: 10px 56px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.factory-lite-recommended-plugins .action-link span{
+    position: relative;
+    top: 5px;
+}
+.factory-lite-recommended-plugins .ibtana-skip-btn{
+    padding: 16px 56px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #0071a1;
+    background: #eaf0f3;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.lite-theme-tab,.gutenberg-editor-tab{
+    display: none;
+}
